@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Venue Finder (Localhost)</title>
+    
+    <!-- Favicon (optional) -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    
+    <!-- Preload fonts (optional) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" 
+      rel="stylesheet"
+    >
+    
+    <!-- Basic styling for loading state (optional) -->
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        background: #f8fafc;
+      }
+      #root {
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- React root -->
+    <div id="root">
+      <!-- Optional loading message (shown until React hydrates) -->
+      <div style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: #4f46e5;
+        font-weight: 500;
+      ">
+        Loading Event Venue Finder...
+      </div>
+    </div>
+    
+    <!-- Entry point for Vite + React -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

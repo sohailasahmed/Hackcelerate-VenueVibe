@@ -1,0 +1,21 @@
+[
+  {
+    "id": "basic",
+    "name": "Basic",
+    "price": 0,
+    "features": [
+      "5 venue recommendations/day",
+      "Standard venues"
+    ]
+  },
+  {
+    "id": "pro",
+    "name": "Pro",
+    "price": 9.99,
+    "features": [
+      "Unlimited recommendations",
+      "Premium venues",
+      "Priority support"
+    ]
+  }
+]
